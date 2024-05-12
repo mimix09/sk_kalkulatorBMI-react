@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./styl.css";
 
+
 function MainPage(){
     const [waga, setWaga] = useState();
     const [wzrost, setWzrost] = useState();
