@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(198, 248, 182), rgb(1, 225, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-4 {
+    background-color: rgb(39, 159, 189);
+    border-radius: 8px;
+}
+
+.pasek {
+    border-left: 1px solid black;
+}
+
+.tlo {
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+}
