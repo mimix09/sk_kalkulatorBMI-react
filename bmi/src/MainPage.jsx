@@ -1,6 +1,12 @@
 import { useState } from "react";
 import "./styl.css";
 
+// **********************************
+// pola: [waga, setWaga] - przyjmuje wartość liczbową, przechowyje wage z input
+//      [wzrost, setWzrost] - przyjmuje wartość liczbową, przechowyje wzrost z input
+//      [data, setData] - przyjmuje tekst, przechowuje date wpisana w input
+//      [edit, setEdit] - przyjmuje wartość liczbową, przechowuje polozenia w tablicy
+// **********************************
 
 function MainPage(){
     const [waga, setWaga] = useState();
